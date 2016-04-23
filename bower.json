@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "authors": [
+    "ashima <ashimaathri@gmail.com>"
+  ],
+  "description": "Ashima's website",
+  "main": "src/blog/handler.clj",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
