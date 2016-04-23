@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <div class='container-fluid'>
+      <div class='row'>
+        <h1 class='center'>Ashima's Blog</h1>
+      </div>
+      <div class='row'>
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+  </body>
+</html>
